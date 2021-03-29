@@ -1,0 +1,12 @@
+#include <stdio.h>      
+main(){
+int i,k=1,j,n;
+scanf("%d",&n);
+for(i=0;i<n;i++){
+	for(j=0;j<n;j++){
+	    printf(" %.2d",k);
+	    k+=1;
+        }
+    printf("\n");    
+    }
+}
