@@ -1,0 +1,10 @@
+#include <stdio.h>      
+main(){
+    int year,total,weekday,day; 
+    scanf("%d",&year);
+    total = (year - 1900) * 365 + (year - 1900) / 4 + 31 + 28 + 31 + 30;
+    weekday = total % 7;
+    if(weekday == 0) day = 14;
+        else day = 14 - weekday;
+    printf("%d\n",day);
+    }
